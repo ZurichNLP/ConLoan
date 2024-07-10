@@ -1,0 +1,226 @@
+{
+	"el-en_primeminister_test_ILSP-FC": {
+		"script": "Grek",
+		"wordnet": "omw-el:1.4",
+		"source_file": "parallel/primeminister_test_ILSP-FC-el-en.el", 
+		"target_file": "parallel/primeminister_test_ILSP-FC-el-en.en",
+		"loanwords_file": "loanwords/Greek_loanwords.tsv"
+	},
+	"el-en-NTREX-128":
+	{
+		"script": "Grek",
+		"wordnet": "omw-el:1.4",
+		"source_file": "parallel/newstest2019-ref.ell.txt",
+		"target_file": "parallel/newstest2019-src.eng.txt",
+		"loanwords_file": "loanwords/Greek_loanwords.tsv"
+	},
+	"MaCoCu-el-en":
+	{
+		"script": "Grek",
+		"wordnet": "omw-el:1.4",
+		"source_file": "parallel/MaCoCu-el-en.txt/MaCoCu.el-en-300k.el",
+		"target_file": "parallel/MaCoCu-el-en.txt/MaCoCu.el-en-300k.en",
+		"loanwords_file": "loanwords/Greek_loanwords.tsv"
+	},
+	"MaCoCu-en-hr":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-hr:1.4",
+		"source_file": "parallel/MaCoCu-en-hr.txt/MaCoCu.en-hr.hr",
+		"target_file": "parallel/MaCoCu-en-hr.txt/MaCoCu.en-hr.en",
+		"loanwords_file": "loanwords/Croatian_loanwords_Wiktionary.tsv"
+	},
+	"MaCoCu-en-is":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-is:1.4",
+		"source_file": "parallel/MaCoCu-en-is.txt/MaCoCu.en-is.is",
+		"target_file": "parallel/MaCoCu-en-is.txt/MaCoCu.en-is.en",
+		"loanwords_file": "loanwords/Icelandic_loanwords_Wiktionary.tsv"
+	},
+	"MaCoCu-en-uk":
+	{	
+		"script": "Cyrl",
+		"wordnet": false,
+		"source_file": "parallel/MaCoCu-en-uk.txt/MaCoCu.en-uk_1M.uk",
+		"target_file": "parallel/MaCoCu-en-uk.txt/MaCoCu.en-uk_1M.en",
+		"loanwords_file": "loanwords/Ukranian_loanwords_Wiktionary.tsv"
+	},
+	"RusLTC-ru-en":
+	{	
+		"script": "Cyrl",
+		"wordnet": false,
+		"source_file": "parallel/RusLTC-ru-en.ru",
+		"target_file": "parallel/RusLTC-ru-en.en",
+		"loanwords_file": "loanwords/Russian_loanwords_Wiktionary.tsv"
+	},
+	"UNPC-en-ru":
+	{	
+		"script": "Cyrl",
+		"wordnet": false,
+		"source_file": "parallel/UNPC-en-ru.txt/UNPC.en-ru_5M.ru",
+		"target_file": "parallel/UNPC-en-ru.txt/UNPC.en-ru_5M.en",
+		"loanwords_file": "loanwords/Russian_loanwords_Wiktionary.tsv"
+	},
+	"UNPC-en-ru-tail-1M":
+	{	
+		"script": "Cyrl",
+		"wordnet": false,
+		"source_file": "parallel/UNPC-en-ru.txt/UNPC.en-ru_1M-tail.ru",
+		"target_file": "parallel/UNPC-en-ru.txt/UNPC.en-ru_1M-tail.en",
+		"loanwords_file": "loanwords/Russian_loanwords_Wiktionary.tsv"
+	},
+	"QED-en-pt":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-pt:1.4",
+		"source_file": "parallel/QED-en-pt.txt/QED.en-pt.pt",
+		"target_file": "parallel/QED-en-pt.txt/QED.en-pt.en",
+		"loanwords_file": "loanwords/Portuguese_loanwords_Wiktionary.tsv"
+	},
+	"QED-en-pt":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-pt:1.4",
+		"source_file": "parallel/QED-en-pt.txt/QED.en-pt.pt",
+		"target_file": "parallel/QED-en-pt.txt/QED.en-pt.en",
+		"loanwords_file": "loanwords/Portuguese_loanwords_Wiktionary.tsv"
+	},
+	"HLPT-en-hr":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-hr:1.4",
+		"source_file": "parallel/HLPT-en-hr.txt/HPLT.en-hr_1M.hr",
+		"target_file": "parallel/HLPT-en-hr.txt/HPLT.en-hr_1M.en",
+		"loanwords_file": "loanwords/Croatian_loanwords_Wiktionary.tsv"
+	},
+	"Europarl-en-pt":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-pt:1.4",
+		"source_file": "parallel/Europarl-en-pt.txt/Europarl.en-pt_1M.pt",
+		"target_file": "parallel/Europarl-en-pt.txt/Europarl.en-pt_1M.en",
+		"loanwords_file": "loanwords/Portuguese_loanwords_Wiktionary.tsv"
+	},
+	"HLPT-en-is":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-is:1.4",
+		"source_file": "parallel/HPLT-en-is.txt/HPLT.en-is.is",
+		"target_file": "parallel/HPLT-en-is.txt/HPLT.en-is.en",
+		"loanwords_file": "loanwords/Icelandic_loanwords_Wiktionary.tsv"
+	},
+	"QED-en-de":
+	{	
+		"script": "Latn",
+		"wordnet": "odenet:1.4",
+		"source_file": "parallel/QED-de-en.txt/QED.de-en.de",
+		"target_file": "parallel/QED-de-en.txt/QED.de-en.en",
+		"loanwords_file": "loanwords/German_loanwords.tsv"
+	},
+	"QED-en-da":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-da:1.4",
+		"source_file": "parallel/QED-da-en.txt/QED.da-en.da",
+		"target_file": "parallel/QED-da-en.txt/QED.da-en.en",
+		"loanwords_file": "loanwords/Danish_loanwords_Wiktionary.tsv"
+	},
+	"QED-en-is":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-is:1.4",
+		"source_file": "parallel/QED-en-is.txt/QED.en-is.is",
+		"target_file": "parallel/QED-en-is.txt/QED.en-is.en",
+		"loanwords_file": "loanwords/Icelandic_loanwords_Wiktionary.tsv"
+	},
+	"Europarl-en-da":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-da:1.4",
+		"source_file": "parallel/Europarl-da-en.txt/Europarl.da-en.da",
+		"target_file": "parallel/Europarl-da-en.txt/Europarl.da-en.en",
+		"loanwords_file": "loanwords/Danish_loanwords_Wiktionary.tsv"
+	},
+	"Europarl-en-de":
+	{	
+		"script": "Latn",
+		"wordnet": "odenet:1.4",
+		"source_file": "parallel/Europarl-de-en.txt/Europarl.de-en.de",
+		"target_file": "parallel/Europarl-de-en.txt/Europarl.de-en.en",
+		"loanwords_file": "loanwords/German_loanwords.tsv"
+	},
+	"Europarl-en-it":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-iwn:1.4",
+		"source_file": "parallel/Europarl-en-it.txt/Europarl.en-it.it",
+		"target_file": "parallel/Europarl-en-it.txt/Europarl.en-it.en",
+		"loanwords_file": "loanwords/Italian_loanwords_Wiktionary.tsv"
+	},
+
+	"QED-en-it":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-iwn:1.4",
+		"source_file": "parallel/QED-en-it.txt/QED.en-it.it",
+		"target_file": "parallel/QED-en-it.txt/QED.en-it.en",
+		"loanwords_file": "loanwords/Italian_loanwords_Wiktionary.tsv"
+	},
+	"Europarl-en-fr":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-fr:1.4",
+		"source_file": "parallel/Europarl-en-fr.txt/Europarl.en-fr.fr",
+		"target_file": "parallel/Europarl-en-fr.txt/Europarl.en-fr.en",
+		"loanwords_file": "loanwords/French_loanwords_Wiktionary.tsv"
+	},
+	"QED-en-fr":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-fr:1.4",
+		"source_file": "parallel/QED-en-fr.txt/QED.en-fr.fr",
+		"target_file": "parallel/QED-en-fr.txt/QED.en-fr.en",
+		"loanwords_file": "loanwords/French_loanwords_Wiktionary.tsv"
+	},
+	"Europarl-en-it":
+	{	
+		"script": "Latn",
+		"wordnet": "omw-iwn:1.4",
+		"source_file": "parallel/Europarl-en-it.txt/Europarl.en-it.it",
+		"target_file": "parallel/Europarl-en-it.txt/Europarl.en-it.en",
+		"loanwords_file": "loanwords/Italian_loanwords_Wiktionary.tsv"
+	},
+	"NeuLab-TedTalks-en-zh":
+	{	
+		"script": "Hani",
+		"wordnet": "omw-cmn:1.4",
+		"source_file": "parallel/NeuLab-TedTalks-en-zh.txt/NeuLab-TedTalks.en-zh.zh",
+		"target_file": "parallel/NeuLab-TedTalks-en-zh.txt/NeuLab-TedTalks.en-zh.en",
+		"loanwords_file": "loanwords/Chinese_loanwords_Wiktionary.tsv"
+	},
+	"UNPC-en-zh":
+	{	
+		"script": "Hani",
+		"wordnet": "omw-cmn:1.4",
+		"source_file": "parallel/UNPC-en-zh.txt/UNPC.en-zh_10M.zh",
+		"target_file": "parallel/UNPC-en-zh.txt/UNPC.en-zh_10M.en",
+		"loanwords_file": "loanwords/Chinese_loanwords_Wiktionary.tsv"
+	},
+	"QED-en-zh":
+	{	
+		"script": "Hani",
+		"wordnet": "omw-cmn:1.4",
+		"source_file": "parallel/QED-en-zh.txt/QED.en-zh.zh",
+		"target_file": "parallel/QED-en-zh.txt/QED.en-zh.en",
+		"loanwords_file": "loanwords/Chinese_loanwords_Wiktionary.tsv"
+	},
+	"WMT-en-zh":
+	{	
+		"script": "Hani",
+		"wordnet": "omw-cmn:1.4",
+		"source_file": "parallel/WMT-News-en-zh.txt/WMT-News.en-zh.zh",
+		"target_file": "parallel/WMT-News-en-zh.txt/WMT-News.en-zh.en",
+		"loanwords_file": "loanwords/Chinese_loanwords_Wiktionary.tsv"
+	}
+}
