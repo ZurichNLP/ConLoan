@@ -4,8 +4,7 @@ from wn.morphy import Morphy
 import jieba
 import json
 
-
-def check_sentence(text, script):
+def check_sentence(text, script) -> bool:
 	# check code-switching
 	try:
 		if script in sp(text)[-1]["details"] and sp(text)[-1]["details"][script] == 1:
@@ -17,9 +16,6 @@ def check_sentence(text, script):
 with open("data.json", "r") as f:
 	files = json.load(f)
 
-
-files = {}
-
 for lang_pair in files:
 	with open(files[lang_pair]["source_file"], "r") as f:
 		source = f.read().splitlines()
@@ -28,7 +24,7 @@ for lang_pair in files:
 		target = f.read().splitlines()
 
 	with open(files[lang_pair]["loanwords_file"], "r") as f:
-		loanwords = list(set([i.split("\t")[0] for i in f.read().splitlines()]))
+		loanwords = set([i.split("\t")[0] for i in f.read().splitlines()])
 
 	print("Files read.")
 	new_dataset, new_dataset_tool = list(), list()
@@ -44,7 +40,7 @@ for lang_pair in files:
 		t_sentence = t_sentence.replace("\t", " ").replace('"', " ")
 
 		# print(sp(sentence)[-1]["details"])
-		if check_sentence(sentence, files[lang_pair]["script"]) and len(sentence) < 500: # check if the sentence can be a good candidate
+		if check_sentence(sentence, files[lang_pair]["script"]) and len(sentence) < 500 and len(sentence) > 40: # check if the sentence can be a good candidate
 			new_sent = list()
 			annot_sent = list()
 			synonyms = list()
@@ -59,6 +55,7 @@ for lang_pair in files:
 
 			for i in sentence_tokens:
 				# select a word only if it's a loanword, hasn't been seen and is not a named-entity
+
 				if i in loanwords and i not in seen_words and not i.istitle():
 					flag = True
 					new_sent.append('<L%s>%s</L%s>'%(str(counter), i, str(counter)))
@@ -94,10 +91,4 @@ for lang_pair in files:
 		f.write("\n".join([i[0] for i in new_dataset_tool]))
 	with open("selected_corpora/%s.tgt"%lang_pair, "w") as f:
 		f.write("\n".join([i[1] for i in new_dataset_tool]))
-
-
-
-
-	
-
 
