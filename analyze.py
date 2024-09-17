@@ -11,8 +11,8 @@ def extract_tagged_words(sentence, tag_prefix):
 
 
 files = {
-	"Portoguese": {
-		"annotations": "annotations/Portoguese1.tsv", 
+	"Portuguese": {
+		"annotations": "annotations/Portuguese1.tsv", 
 		"loanwords": "loanwords/Portuguese_loanwords_Wiktionary.tsv"
 	},
 	"Icelandic": {
