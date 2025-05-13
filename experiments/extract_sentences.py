@@ -71,6 +71,13 @@ files = {
 			"target": "MT/all/Russian_target.txt",
 			"source": "MT/all/Russian_source_plain.txt"
 	},
+	"Chinese_yue_Hant": {
+			"dataset": "../datasets/Chinese.json",
+			"plain_translation": "MT/Chinese_yue_Hant_source_plain_translated.txt",
+			"annotated_translation": "MT/Chinese_yue_Hant_source_annotated_plain_translated.txt",
+			"target": "MT/all/Chinese_target.txt",
+			"source": "MT/all/Chinese_source_plain.txt"
+	}
 }
 
 for language in files:
@@ -119,20 +126,20 @@ for language in files:
 
 	print(f"In {language}, among {counter}, {identical} are identical.")
 
-	# with open("MT/only_loanword/" + language + "_only_native_source.txt", "w") as f:
-	# 	f.write("\n".join(only_native_source))
+	with open("MT/only_loanword/" + language + "_only_native_source.txt", "w") as f:
+		f.write("\n".join(only_native_source))
 
-	# with open("MT/only_loanword/" + language + "_only_native_source_annotated.txt", "w") as f:
-	# 	f.write("\n".join(only_native_source_annotated))
+	with open("MT/only_loanword/" + language + "_only_native_source_annotated.txt", "w") as f:
+		f.write("\n".join(only_native_source_annotated))
 
-	# with open("MT/only_loanword/" + language + "_only_native_target.txt", "w") as f:
-	# 	f.write("\n".join(only_native_target))
+	with open("MT/only_loanword/" + language + "_only_native_target.txt", "w") as f:
+		f.write("\n".join(only_native_target))
 
-	# with open("MT/only_loanword/" + language + "_only_native_plain_translation.txt", "w") as f:
-	# 	f.write("\n".join(only_native_plain_translation))
+	with open("MT/only_loanword/" + language + "_only_native_plain_translation.txt", "w") as f:
+		f.write("\n".join(only_native_plain_translation))
 
-	# with open("MT/only_loanword/" + language + "_only_native_annotated_translation.txt", "w") as f:
-	# 	f.write("\n".join(only_native_annotated_translation))
+	with open("MT/only_loanword/" + language + "_only_native_annotated_translation.txt", "w") as f:
+		f.write("\n".join(only_native_annotated_translation))
 
 
 

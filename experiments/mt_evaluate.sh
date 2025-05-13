@@ -47,3 +47,37 @@ sacrebleu MT/only_loanword/Northern-Kurdish_only_native_annotated_translation.tx
 sacrebleu MT/only_loanword/Portuguese_only_native_annotated_translation.txt -i MT/only_loanword/Portuguese_only_native_target.txt -m bleu chrf
 sacrebleu MT/only_loanword/Russian_only_native_annotated_translation.txt -i MT/only_loanword/Russian_only_native_target.txt -m bleu chrf
 sacrebleu MT/only_loanword/Spanish_only_native_annotated_translation.txt -i MT/only_loanword/Spanish_only_native_target.txt -m bleu chrf
+
+# Chinese (Cantonese) - _yue_Hant
+sacrebleu MT/only_loanword/Chinese_yue_Hant_only_native_plain_translation.txt -i MT/only_loanword/Chinese_yue_Hant_only_native_target.txt -m bleu chrf
+sacrebleu MT/only_loanword/Chinese_yue_Hant_only_native_annotated_translation.txt -i MT/only_loanword/Chinese_yue_Hant_only_native_target.txt -m bleu chrf
+
+
+# ENG > X
+# Evaluation of English translation of target sentences before annotation 
+sacrebleu translations/Chinese_translated.txt -i translations/Chinese_source_plain.txt -m bleu chrf
+sacrebleu translations/French_translated.txt -i translations/French_source_plain.txt -m bleu chrf
+sacrebleu translations/German_translated.txt -i translations/German_source_plain.txt -m bleu chrf
+sacrebleu translations/Greek_translated.txt -i translations/Greek_source_plain.txt -m bleu chrf
+sacrebleu translations/Icelandic_translated.txt -i translations/Icelandic_source_plain.txt -m bleu chrf
+sacrebleu translations/Italian_translated.txt -i translations/Italian_source_plain.txt -m bleu chrf
+sacrebleu translations/Northern-Kurdish_translated.txt -i translations/Northern-Kurdish_source_plain.txt -m bleu chrf
+sacrebleu translations/Portuguese_translated.txt -i translations/Portuguese_source_plain.txt -m bleu chrf
+sacrebleu translations/Russian_translated.txt -i translations/Russian_source_plain.txt -m bleu chrf
+sacrebleu translations/Spanish_translated.txt -i translations/Spanish_source_plain.txt -m bleu chrf
+
+# Evaluation of English translation of target sentences after annotation (with loanword replacement - excluding replacement of the loanword by itself)
+sacrebleu translations/Chinese_translated.txt -i translations/Chinese_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/French_translated.txt -i translations/French_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/German_translated.txt -i translations/German_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Greek_translated.txt -i translations/Greek_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Icelandic_translated.txt -i translations/Icelandic_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Italian_translated.txt -i translations/Italian_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Northern-Kurdish_translated.txt -i translations/Northern-Kurdish_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Portuguese_translated.txt -i translations/Portuguese_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Russian_translated.txt -i translations/Russian_source_annotated_plain.txt -m bleu chrf
+sacrebleu translations/Spanish_translated.txt -i translations/Spanish_source_annotated_plain.txt -m bleu chrf
+
+# Chinese (Cantonese) - _yue_Hant
+# sacrebleu Chinese_yue_Hant_only_native_plain_translation.txt -i Chinese_yue_Hant_source_annotated_plain.txt -m bleu chrf
+# sacrebleu Chinese_yue_Hant_translation.txt -i Chinese_yue_Hant_source_annotated_plain.txt -m bleu chrf

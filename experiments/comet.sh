@@ -51,3 +51,26 @@ comet-score -s MT/only_loanword/Portuguese_only_native_source_annotated.txt -t M
 comet-score -s MT/only_loanword/Russian_only_native_source_annotated.txt -t MT/only_loanword/Russian_only_native_annotated_translation.txt -r MT/only_loanword/Russian_only_native_target.txt --gpu 0
 comet-score -s MT/only_loanword/Spanish_only_native_source_annotated.txt -t MT/only_loanword/Spanish_only_native_annotated_translation.txt -r MT/only_loanword/Spanish_only_native_target.txt --gpu 0
 
+# # Evaluation of English translation of target sentences before annotation 
+comet-score -s translations/Chinese_target.txt -t translations/Chinese_translated.txt -r translations/Chinese_source_plain.txt --gpu 0
+comet-score -s translations/French_target.txt -t translations/French_translated.txt -r translations/French_source_plain.txt --gpu 0
+comet-score -s translations/German_target.txt -t translations/German_translated.txt -r translations/German_source_plain.txt --gpu 1
+comet-score -s translations/Greek_target.txt -t translations/Greek_translated.txt -r translations/Greek_source_plain.txt --gpu 1
+comet-score -s translations/Icelandic_target.txt -t translations/Icelandic_translated.txt -r translations/Icelandic_source_plain.txt --gpu 1
+comet-score -s translations/Italian_target.txt -t translations/Italian_translated.txt -r translations/Italian_source_plain.txt --gpu 1
+comet-score -s translations/Northern-Kurdish_target.txt -t translations/Northern-Kurdish_translated.txt -r translations/Northern-Kurdish_source_plain.txt --gpu 1
+comet-score -s translations/Portuguese_target.txt -t translations/Portuguese_translated.txt -r translations/Portuguese_source_plain.txt --gpu 1
+comet-score -s translations/Russian_target.txt -t translations/Russian_translated.txt -r translations/Russian_source_plain.txt --gpu 1
+comet-score -s translations/Spanish_target.txt -t translations/Spanish_translated.txt -r translations/Spanish_source_plain.txt --gpu 1
+
+# # Evaluation of English translation of target sentences after annotation (with loanword replacement - excluding replacement of the loanword by itself)
+comet-score -s translations/Chinese_target.txt -t translations/Chinese_translated.txt -r translations/Chinese_source_annotated_plain.txt --gpu 1
+comet-score -s translations/French_target.txt -t translations/French_translated.txt -r translations/French_source_annotated_plain.txt --gpu 1
+comet-score -s translations/German_target.txt -t translations/German_translated.txt -r translations/German_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Greek_target.txt -t translations/Greek_translated.txt -r translations/Greek_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Icelandic_target.txt -t translations/Icelandic_translated.txt -r translations/Icelandic_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Italian_target.txt -t translations/Italian_translated.txt -r translations/Italian_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Northern-Kurdish_target.txt -t translations/Northern-Kurdish_translated.txt -r translations/Northern-Kurdish_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Portuguese_target.txt -t translations/Portuguese_translated.txt -r translations/Portuguese_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Russian_target.txt -t translations/Russian_translated.txt -r translations/Russian_source_annotated_plain.txt --gpu 1
+comet-score -s translations/Spanish_target.txt -t translations/Spanish_translated.txt -r translations/Spanish_source_annotated_plain.txt --gpu 1
