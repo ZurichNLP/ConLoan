@@ -6,9 +6,7 @@
 
 ---
 
-## What if English sounded completely different?
-
-Consider this familiar opening from the U.S. Constitution:
+**What if English sounded completely different?** Consider this familiar opening from the U.S. Constitution:
 
 <table>
 <tr>
