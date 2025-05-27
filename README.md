@@ -35,17 +35,17 @@ This is exactly what we try to answer with ConLoan. ConLoan is a novel contrasti
 
 <!-- This repository contains the data, code, and resources from the paper "ConLoan – A Contrastive Multilingual Dataset for Evaluating Loanwords" published at ACL 2025. -->
 
-## Dataset Overview
+### Dataset Overview
 
 ConLoan contains sentences having one or more loanwords along with their equivalents where the loanwords are manually replaced by native alternatives. Here is an example:
 
-| **sentence with loanwords** | **equivalent with native replacements** |
+| **sentence with loanwords** 🔴 | **equivalent with native replacements** 🔵 |
 |---------------------------|------------------------------|
-| Mais tout ceci ne nous empêche pas de constater que nous sommes relativement impuissants, car lorsque les négociateurs des deux parties prendront l'avion ce **<span style="color: red;">week-end</span>** pour retourner aux États-Unis, nous ne pourrons nous empêcher de penser qu'à chaque fois que cent dollars sont dépensés pour le processus de paix dans la région, 60 dollars sont payés par l'Union européenne. | Mais tout ceci ne nous empêche pas de constater que nous sommes relativement impuissants, car lorsque les négociateurs des deux parties prendront l'avion cette **<span style="color: blue;">fin de semaine</span>** pour retourner aux États-Unis, nous ne pourrons nous empêcher de penser qu'à chaque fois que cent dollars sont dépensés pour le processus de paix dans la région, 60 dollars sont payés par l'Union européenne. |
-| Cela impliquerait également tous les frais de transaction occasionnés par la vente de vos actions, puis par leur rachat après le **<span style="color: red;">crack</span>** boursier. | Cela impliquerait également tous les frais de transaction occasionnés par la vente de vos actions, puis par leur rachat après la **<span style="color: blue;">débacle</span>** boursière. |
-| Les propositions de la Commission dont nous discutons ici permettent le **<span style="color: red;">lifting</span>** dont elle a besoin. | Les propositions de la Commission dont nous discutons ici permettent le **<span style="color: blue;">lissage</span>** dont elle a besoin. |
+| Mais tout ceci ne nous empêche pas de constater que nous sommes relativement impuissants, car lorsque les négociateurs des deux parties prendront l'avion ce ***week-end*** pour retourner aux États-Unis, nous ne pourrons nous empêcher de penser qu'à chaque fois que cent dollars sont dépensés pour le processus de paix dans la région, 60 dollars sont payés par l'Union européenne. | Mais tout ceci ne nous empêche pas de constater que nous sommes relativement impuissants, car lorsque les négociateurs des deux parties prendront l'avion cette ***fin de semaine*** pour retourner aux États-Unis, nous ne pourrons nous empêcher de penser qu'à chaque fois que cent dollars sont dépensés pour le processus de paix dans la région, 60 dollars sont payés par l'Union européenne. |
+| Cela impliquerait également tous les frais de transaction occasionnés par la vente de vos actions, puis par leur rachat après le ***crack*** boursier. | Cela impliquerait également tous les frais de transaction occasionnés par la vente de vos actions, puis par leur rachat après la ***débacle*** boursière. |
+| Les propositions de la Commission dont nous discutons ici permettent le ***lifting*** dont elle a besoin. | Les propositions de la Commission dont nous discutons ici permettent le ***lissage*** dont elle a besoin. |
 
-This table clearly shows the contrast between borrowed words (in red) and their native French alternatives (in blue), demonstrating how ConLoan provides parallel sentences that differ only in their use of loanwords versus native vocabulary. The dataset also provides translations in English with other meta-data.
+This table shows the contrast between loanwords (left column) and their native alternatives (right column), demonstrating how ConLoan provides parallel sentences that differ only in their use of loanwords versus native vocabulary. The dataset also provides translations in English with other meta-data.
 
 In this repository, you can find two main data folders:
 
@@ -97,25 +97,29 @@ If you're using this project, please cite [this paper]():
   @inproceedings{ahmadi2025conloan,
    title = {ConLoan--A Contrastive Multilingual Dataset for Evaluating Loanwords},
    author = {
-    Ahmadi, Sina and,
-    Hess, Micha David  and,
-    Álvarez Mellado, Elena  and,
-    Battisti, Alessia and,
-    Ding, Cui and,
-    Göhring, Anne and,
-    Gao, Yingqiang and,
-    Jiang, Zifan and,
-    Michail, Andrianos and,
-    Morad, Peshmerge and,
-    Niklaus, Joel and,
-    Panagiotopoulou, Maria Christina and,
-    Perrella, Stefano and,
-    Opitz, Juri and,
-    Shaitarova, Anastassia and,
+    Ahmadi, Sina and
+    Hess, Micha David  and
+    Álvarez Mellado, Elena  and
+    Battisti, Alessia and
+    Ding, Cui and
+    Göhring, Anne and
+    Gao, Yingqiang and
+    Jiang, Zifan and
+    Michail, Andrianos and
+    Morad, Peshmerge and
+    Niklaus, Joel and
+    Panagiotopoulou, Maria Christina and
+    Perrella, Stefano and
+    Opitz, Juri and
+    Shaitarova, Anastassia and
     Sennrich, Rico
     },
-   publisher = {Association for Computational Linguistics},
-   year = {2025},
+    booktitle = "Proceedings of the 63nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = ""
 }
 ```
 
