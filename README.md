@@ -95,7 +95,7 @@ If you're using this project, please cite [this paper]():
 
 ```
   @inproceedings{ahmadi2025conloan,
-   title = {ConLoan--A Contrastive Multilingual Dataset for Evaluating Loanwords},
+   title = {ConLoan: A Contrastive Multilingual Dataset for Evaluating Loanwords},
    author = {
     Ahmadi, Sina and
     Hess, Micha David  and
@@ -114,7 +114,7 @@ If you're using this project, please cite [this paper]():
     Shaitarova, Anastassia and
     Sennrich, Rico
     },
-    booktitle = "Proceedings of the 63nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     month = aug,
     year = "2025",
     address = "Vienna, Austria",
