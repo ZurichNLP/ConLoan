@@ -41,7 +41,6 @@ ConLoan contains sentences having one or more loanwords along with their equival
 
 | **sentence with loanwords** 🔴 | **equivalent with native replacements** 🔵 |
 |---------------------------|------------------------------|
-| Mais tout ceci ne nous empêche pas de constater que nous sommes relativement impuissants, car lorsque les négociateurs des deux parties prendront l'avion ce ***week-end*** pour retourner aux États-Unis, nous ne pourrons nous empêcher de penser qu'à chaque fois que cent dollars sont dépensés pour le processus de paix dans la région, 60 dollars sont payés par l'Union européenne. | Mais tout ceci ne nous empêche pas de constater que nous sommes relativement impuissants, car lorsque les négociateurs des deux parties prendront l'avion cette ***fin de semaine*** pour retourner aux États-Unis, nous ne pourrons nous empêcher de penser qu'à chaque fois que cent dollars sont dépensés pour le processus de paix dans la région, 60 dollars sont payés par l'Union européenne. |
 | Cela impliquerait également tous les frais de transaction occasionnés par la vente de vos actions, puis par leur rachat après le ***crack*** boursier. | Cela impliquerait également tous les frais de transaction occasionnés par la vente de vos actions, puis par leur rachat après la ***débacle*** boursière. |
 | Les propositions de la Commission dont nous discutons ici permettent le ***lifting*** dont elle a besoin. | Les propositions de la Commission dont nous discutons ici permettent le ***lissage*** dont elle a besoin. |
 
