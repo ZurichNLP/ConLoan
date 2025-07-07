@@ -90,7 +90,7 @@ The [`experiments/`](experiments/) folder contains scripts and results for the e
 
 ## Citation
 
-If you're using this project, please cite [this paper]():
+If you're using this project, please cite [this paper](https://sinaahmadi.github.io/docs/articles/ahmadi2025conloan.pdf):
 
 ```
   @inproceedings{ahmadi2025conloan,
